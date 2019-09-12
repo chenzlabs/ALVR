@@ -195,6 +195,9 @@ namespace ALVR
 
                 driverConfig.force60HZ = c.force60Hz;
 
+                //***HACK: flag to force 3DOF
+                driverConfig.force3DOF = c.force3DOF;
+
                 driverConfig.enableController = c.enableController;
                 if(device != null && device.HasTouchController)
                 {
